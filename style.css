@@ -1,0 +1,119 @@
+:root{
+    --gold: hsl(31, 77%, 52%);
+    --cyan: hsl(184, 100%, 22%);
+    --green: hsl(170, 100%, 14%);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-rows: auto auto;
+    margin: 20px;
+}
+
+.sedans{
+    background-color: var(--gold);
+    color: white;
+    padding: 30px;
+}
+
+.sedans img, .sedans h1, .sedans p{
+    margin-bottom: 24px;
+}
+
+.sedans h1{
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+}
+
+.sedans p{
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+}
+
+.sedans button{
+    padding: 10px;
+    background-color: white;
+    color: var(--gold);
+    border-radius: 24px;
+    width: 100px;
+    border-style: none;
+    margin-top: 40px;
+    margin-bottom: 16px;
+}
+
+.suv{
+    background-color: var(--cyan);
+    color: white;
+    padding: 30px;
+}
+
+.suv img, .suv h1, .suv p{
+    margin-bottom: 24px;
+}
+
+.suv h1{
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+}
+
+.suv p{
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+}
+
+.suv button{
+    padding: 10px;
+    background-color: white;
+    color: var(--cyan);
+    border-radius: 24px;
+    width: 100px;
+    border-style: none;
+    margin-top: 40px;
+    margin-bottom: 16px;
+}
+
+.luxury{
+    background-color: var(--green);
+    color: white;
+    padding: 30px;
+}
+
+.luxury img, .luxury h1, .luxury p{
+    margin-bottom: 24px;
+}
+
+.luxury h1{
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+}
+
+.luxury p{
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+}
+
+.luxury button{
+    padding: 10px;
+    background-color: white;
+    color: var(--green);
+    border-radius: 24px;
+    width: 100px;
+    border-style: none;
+    margin-top: 40px;
+    margin-bottom: 16px;
+}
